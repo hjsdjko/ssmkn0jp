@@ -1,0 +1,92 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/chat/chat",
+    "pages/news-detail/news-detail",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/biaoqian/list",
+    "pages/biaoqian/add-or-update",
+    "pages/biaoqian/detail",
+    "pages/zuopin/list",
+    "pages/zuopin/add-or-update",
+    "pages/zuopin/detail",
+    "pages/zuopinji/list",
+    "pages/zuopinji/add-or-update",
+    "pages/zuopinji/detail",
+    "pages/fangkehuaxiang/list",
+    "pages/fangkehuaxiang/add-or-update",
+    "pages/fangkehuaxiang/detail",
+    "pages/youxiuzuozhe/list",
+    "pages/youxiuzuozhe/add-or-update",
+    "pages/youxiuzuozhe/detail",
+    "pages/wodefenxiang/list",
+    "pages/wodefenxiang/add-or-update",
+    "pages/wodefenxiang/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/discusszuopin/list",
+    "pages/discusszuopin/add-or-update",
+    "pages/discusszuopin/detail",
+    "pages/discusszuopinji/list",
+    "pages/discusszuopinji/add-or-update",
+    "pages/discusszuopinji/detail",
+    "pages/discussyouxiuzuozhe/list",
+    "pages/discussyouxiuzuozhe/add-or-update",
+    "pages/discussyouxiuzuozhe/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "作品集展示小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#FFFFFF",
+    "borderStyle": "white",
+    "backgroundColor": "#019DD6",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/zuopinji/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "作品集"
+      },
+      {
+        "pagePath": "pages/youxiuzuozhe/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "优秀作者"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
